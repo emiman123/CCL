@@ -1,0 +1,157 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  /* background-color: lightgray; */
+  background-color: rgb(30, 25, 63);
+  display: flex;
+  flex-direction: column;
+  /*  */
+  /* min-height: 100vh; */
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  padding: 40px 20px;
+  text-align: center;
+  flex-direction: column;
+}
+
+.main-title-box h1 {
+  font-size: 3rem;
+  color: mediumseagreen;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+#p5-canvas-container {
+  width: 100%;
+  /* background-color: lightsteelblue; */
+  margin-bottom: 20px;
+}
+
+.main-description-box {
+  max-width: 700px;
+  font-size: 1.2rem;
+  color: dimgray;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.main-link-box a {
+  text-decoration: none;
+  color: seagreen;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.main-link-box a:hover {
+  color: mediumseagreen;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  /* background-color: darkslategray; */
+  padding: 10px 0;
+  margin-bottom: 40px;
+}
+
+.nav-link {
+  margin: 0 20px;
+}
+
+.nav-link a {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-link a:hover {
+  color: mediumseagreen;
+}
+
+.image-container {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.product-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+.description-container {
+  max-width: 700px;
+  text-align: center;
+  font-size: 1.2rem;
+  /* color: dimgray; */
+  color: azure;
+  line-height: 1.5;
+}
+
+.description-container p {
+  margin-bottom: 20px;
+}
+
+.product-image-container {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.main-button-box {
+  margin-bottom: 30px;
+}
+
+#add-to-cart-btn {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  background-color: mediumseagreen;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#add-to-cart-btn:hover {
+  background-color: seagreen;
+}
+
+.about-image-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.about-image-box img {
+  /* max-width: 100%; */
+  /* height: auto; */
+  height: 400px;
+  border-radius: 8px;
+}
+
+.credits-footer {
+  /* background-color: gray; */
+  padding: 20px 0;
+  text-align: center;
+  color: darkslategray;
+  font-size: 1rem;
+}
